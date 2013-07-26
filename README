@@ -1,0 +1,11 @@
+You will have to compile miniBatch.c file to get the executable. The miniBatch.h header file contains the parameters such as dataset size, number of features, number of iterations, number of clusters and the batch size. The filename can be passed as an argument while execution. I have assumed the data to be in the following format:
+
+point1(n features separated by spaces)
+point2(...)
+.
+.
+.
+.
+pointm(...)
+
+Right now I haven't given anything as output, as I was confused whether to give the cluster number for each datapoint or the centroids of the clusters. They can be easily accessed using 'clusters' or 'means' respectively.
